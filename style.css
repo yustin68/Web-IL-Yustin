@@ -1,0 +1,64 @@
+.header{
+    width: 1280px;
+    position:fixed;
+}
+/* Kode css navigator */
+ul{
+    list-style: none;
+    background: blue;
+    padding: 0px 0px;
+    margin: 120px 0px;
+    position: fixed;
+    width: 1280 px;
+    height: 60px;
+}
+ul li{
+    display: inline-block;
+    position: relative;
+    height: 60px;
+    padding: 10px 8px;
+}
+ul li a{
+    padding: 10px 0px;
+    text-align: center;
+}
+ul a:hover{
+    background-color: red;
+}
+/* Kode css dropdown */
+ul li ul.dropdown{
+    background: blue;
+    position: absolute;
+    display: none;
+    width: auto;
+    height: auto;
+    margin: 0px 0px;
+}
+ul li:hover ul.dropdown{
+    display: block;
+}
+/* Kode CSS Side Bar */
+.column{
+    float: left;
+    padding: 0px 10px;
+}
+/* Left column */
+.column.side{
+    margin:170px 0px;
+    width:250px;
+    height:400px;
+    background-color:green;
+}
+/* Kode CSS Middle Bar */
+.column.middle{
+    margin:170px 0px;
+    width:940px;
+    height: 400px;
+    background-color: green;
+}
+/* Kode CSS Footer */
+.footer{
+    width: 1280px;
+    position: fixed;
+    margin: 550px 0px;
+}
